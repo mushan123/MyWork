@@ -1,0 +1,12 @@
+cd Desktop/MyWork/vue-demo-cnodejs
+npm run dev
+
+scss 中，引用文件，是可以省略 .scss 这个后缀名的。 
+并且，我们某个不用编译成 css 的文件，我们给文件命名为 _xxx.scss 其中，文件名前缀的下划线，也是可以省略的。
+
+使用了 scss 文件预编译，所以我们需要安装两个支持 scss 的 npm 包。(在Desktop/MyWork/vue-demo-cnodejs下安装)
+npm install sass-loader -D
+npm install node-sass -D
+
+vue 本身是不支持 ajax 接口请求的，所以我们需要安装一个接口请求的 npm 包，来使我们的项目拥有这个功能。
+npm install axios -D
